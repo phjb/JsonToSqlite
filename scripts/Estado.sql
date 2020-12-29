@@ -1,0 +1,6 @@
+CREATE TABLE "Estado" (
+	"id"	INTEGER NOT NULL UNIQUE,
+	"nome"	TEXT NOT NULL,
+	"sigla"	TEXT NOT NULL,
+	PRIMARY KEY("id")
+);
